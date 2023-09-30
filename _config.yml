@@ -1,0 +1,97 @@
+# 站点设置
+title: Mcenahle（葛琛昊）的博客 # 名称
+SEOTitle: Mcenahle（葛琛昊）的博客 # 网页标签上显示的小标题
+header-img: img/home-bg.jpg
+email: Mcenahle@outlook.com
+description: "这里是Mcenahle的个人博客。"
+keyword: "Mcenahle的博客, 博客, 个人网站" # 关键词
+url: "http://mcenahle.github.io" # 博客链接地址
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+
+# 发布具有未来日期的帖子或收藏文档
+future: true
+
+# SNS 设置
+RSS: false
+#weibo_username:
+#zhihu_username:
+#github_username:
+#twitter_username:
+#facebook_username:
+#linkedin_username:  firstname-lastname-idxxxx
+
+# Build settings
+# 从2016年起, GitHub 不支持 'pygments'，使用 'rouge' 突出显示.
+highlighter: rouge
+permalink: pretty
+paginate: 20 # 一页中的帖子数
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN
+
+# Gems
+# 从PR#40开始，支持Jekyll 3.0的本地预览
+# 确保已安装 gem
+#`$ gem install jekyll-paginate`  # 安装
+#plugins: [jekyll-paginate]       # 插件
+gems: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Disqus 评论系统
+#disqus_username: 
+
+# Netease settings
+netease_comment: false
+
+# Analytics settings 百度统计
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics 谷歌统计
+ga_track_id: "UA-216485699-1" # 你用 Google 账号去注册一个就会给你一个这样的 id
+ga_domain: auto # 默认的是 auto, 你如果没有自己的域名，需要改成auto
+
+# 侧边栏设置
+sidebar: true
+sidebar-about-description: "Mcenahle，计算机软件开发人员。同时，也是一名高三男生。"
+
+# Featured Tags 主页右侧特色标签
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # 0显示所有标签，1表示相同标签数大于 1 才会显示
+
+# 网页应用程序
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+# 布局的 MathJax 渲染：页面（例如后期预览）
+page-mathjax: false
+
+friends:
+  [
+    { title: "⇱ 报告网站bug", href: " https://www.wjx.cn/vm/rw7uyiV.aspx# " },
+    { title: "⇱ 获取 Windows 实用程序（第二代）", href: " https://windows-useful-tools-development-center.fandom.com/zh/wiki/%E8%8E%B7%E5%8F%96Windows_%E5%AE%9E%E7%94%A8%E7%A8%8B%E5%BA%8F%EF%BC%88%E7%AC%AC%E4%BA%8C%E4%BB%A3%EF%BC%89" },
+    { title: "⇱ 给 Windows 实用程序（第二代）提交反馈", href: "https://github.com/Mcenahle/Windows-Useful-Tool-Second-Edition/issues" },
+    { title: "⇱ Windows 实用程序（第二代） - 帮助与支持文件", href: "https://kdocs.cn/l/cle24P1osVVZ" },
+  ]
