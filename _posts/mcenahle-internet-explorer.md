@@ -1,0 +1,23 @@
+---
+layout: post
+title: Mcenahle Internet Explorer开发进程
+subtitle: 
+date: 2023-10-17
+author: Mcenahle
+header-img: img/post-bg-pokhara.jpeg
+catalog: true
+top: true
+tags:
+  - 网页开发
+---
+
+Mcenahle Internet Explorer是基于Visual Basic而编写的一款浏览器程序。
+
+下表展示目前开发中的版本。
+
+|版本号|主要更新内容|发布状态|下载链接|下载密码|
+|---|---|---|---|---|
+|1.0.0.0|待定|尚未开始开发|/|/|
+|---|---|---|/|/|
+|0.0.0.2|待定|尚未开始开发|/|/|
+|0.0.0.1|全部为新增内容|已发布|⇱ <https://windowsuseful.lanzoul.com/iOBE21c35aqd>|dry1|
